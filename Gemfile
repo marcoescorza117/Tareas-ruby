@@ -44,6 +44,9 @@ gem "tzinfo-data"
 gem "simple_form"
 gem "haml-rails"
 
+
+gem 'annotate'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 

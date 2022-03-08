@@ -15,6 +15,7 @@ Things to cover:
         * <code>gem 'tzinfo'</code>
         * <code>gem 'simple_form'</code>
         * <code>gem 'haml-rails'</code>
+        * <code>gem 'annotate'</code> to annotations on models
     * After that, execute <code>bundle install </code> to install the dependencies.
 
 
