@@ -24,6 +24,7 @@ Things to cover:
 
 
 *Models
+![Alt text](model.PNG "**Title**")
 * rails g scaffold Category name:string description:text
 * rails g scaffold Task name:string description:text due_date:date category:references
 
