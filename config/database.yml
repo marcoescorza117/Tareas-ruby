@@ -23,11 +23,11 @@ default: &default
 
 development:
   <<: *default
-   database: organizadorDevelopment
-   host: 127.0.0.1
-   port: 5433
-   user: admin
-   password: root
+  database: organizadorDevelopment
+  host: 127.0.0.1
+  port: 5433
+  user: admin
+  password: root
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
