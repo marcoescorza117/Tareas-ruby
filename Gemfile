@@ -44,9 +44,14 @@ gem "tzinfo-data"
 gem "simple_form"
 gem "haml-rails"
 
+gem 'rails-i18n'
+
 
 gem 'annotate'
 
+
+gem 'i18n-tasks', '~> 0.7.4'
+gem 'rails-i18n'
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 

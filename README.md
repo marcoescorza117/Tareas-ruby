@@ -16,6 +16,8 @@ Things to cover:
         * <code>gem 'simple_form'</code>
         * <code>gem 'haml-rails'</code>
         * <code>gem 'annotate'</code> to annotations on models
+        * <code>gem 'i18n-tasks', '~> 0.7.4'  || i18n-tasks add-missing</code>
+        * <code>gem 'rails-i18n'</code>
     * After that, execute <code>bundle install </code> to install the dependencies.
 
 
