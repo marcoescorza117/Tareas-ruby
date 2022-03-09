@@ -10,4 +10,6 @@
 #
 class Category < ApplicationRecord
   has_many :tasks #relacion entre Categoria
+  validates :name, :description, presence:true ##validacion campos
+  validates :name, uniqueness: {case_sensitive: false} ## validacion de unicidadd || mayusculas y minisculas
 end
